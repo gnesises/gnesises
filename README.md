@@ -62,7 +62,3 @@
 </div>
 
 ###
-
-<h4 data-importer="text" align="left">Git Stats</h4>
-
-###
