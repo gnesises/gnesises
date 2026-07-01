@@ -66,21 +66,3 @@
 <h4 data-importer="text" align="left">Git Stats</h4>
 
 ###
-
-<img data-importer="image" align="right" height="170" src="https://i.gifer.com/Paz.gif"  />
-
-###
-
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/gnesises/gnesises/stats-output/stats.svg?hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
-</div>
-
-###
-
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gnesises/gnesises/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gnesises/gnesises/pacman-output/galaga-contribution-graph.svg?game=galaga">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/gnesises/gnesises/pacman-output/galaga-contribution-graph.svg?game=galaga">
-</picture>
-
-###
