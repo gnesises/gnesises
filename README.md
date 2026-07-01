@@ -1,4 +1,3 @@
-## Hi there 👋
 <h1 data-importer="text" align="center">Hi, I'm Génesis Escobar :)</h1>
 
 ###
