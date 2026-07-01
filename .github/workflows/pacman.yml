@@ -1,0 +1,28 @@
+name: Pacman contribution graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Pacman graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: gnesises
+          outputs: |
+            dist/pacman.svg?color_snake=#00FF00&color_dots=#1f1f1f
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: pacman-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
